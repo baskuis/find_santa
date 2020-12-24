@@ -34,7 +34,7 @@ public class SantaSuspects {
 			if (null == this.suspects[i]) {
 				continue;
 			}
-			if (this.suspects[i].equals(input)) {
+			if (this.suspects[i].equalsIgnoreCase(input)) {
 				return true;
 			}
 		}

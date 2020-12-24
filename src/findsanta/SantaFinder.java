@@ -8,19 +8,19 @@ public class SantaFinder {
 		
 		SantaSuspects santaSuspects = new SantaSuspects(20);
 		
-		santaSuspects.addSuspect("Bob Bezanga");
-		santaSuspects.addSuspect("Sally Zimmers");
-		santaSuspects.addSuspect("Peter Pinkelton");
-		santaSuspects.addSuspect("Bobby Drop Tables");
-		santaSuspects.addSuspect("Rudolph Rednose");
-		santaSuspects.addSuspect("Bob Ross");
-		santaSuspects.addSuspect("Ubiga Altman");
-		santaSuspects.addSuspect("Tony Ross");
-		santaSuspects.addSuspect("Aaron Rogers");
-		santaSuspects.addSuspect("Yolo Once");
-		santaSuspects.addSuspect("Yoka Yamalla");
-		santaSuspects.addSuspect("Big Show");
-		santaSuspects.addSuspect("Doug Dimmadome");
+		santaSuspects.addSuspect("bob@bezanga.com");
+		santaSuspects.addSuspect("sally@zimmers.com");
+		santaSuspects.addSuspect("peter@pinkelton.com");
+		santaSuspects.addSuspect("bobby.drop@tables.com");
+		santaSuspects.addSuspect("rudolph@rednose.com");
+		santaSuspects.addSuspect("bob@ross.com");
+		santaSuspects.addSuspect("ubiga@altman.com");
+		santaSuspects.addSuspect("tony@ross.com");
+		santaSuspects.addSuspect("aaron@rogers.com");
+		santaSuspects.addSuspect("yolo@once.com");
+		santaSuspects.addSuspect("yoka@yamalla.com");
+		santaSuspects.addSuspect("big@show.com");
+		santaSuspects.addSuspect("boug@dimmadome.com");
 		
 		System.out.println("Provide a name to search for:");
 		Scanner scanner = new Scanner(System.in);
